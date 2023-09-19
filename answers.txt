@@ -1,1 +1,29 @@
-hi
+QUESTION - 1
+Github repo URL - "https://github.com/Boredalien248/Lab-1.git"
+
+QUESTION - 2
+requests had to be pip installed. 
+The current requests version on my pc is 2.31.0
+
+QUESTION - 3
+The requests package was installed and the version still remains the same that is 2.31.0
+
+QUESTION - 4
+There is no difference between the python script running on virtualenv and on non virtualenv python 
+
+QUESTION - 5
+The status code that was returned for http://google.com was 301 Moved Permanently. In order to get a 200 status code we need to visit a website that is active and exists
+for example we could try curl with the location that was provided for the output of curl -i http://google.com that is we could try the command curl -i http://www.google.com/ and
+it should give us a 200 OK status code.
+
+QUESTION - 6
+- The status code that was returned for curl -i http://google.com/teapot is 301 Moved Permanently 
+- whereas for curl -iL http://google.com/teapot the initial status code was 301 Moved Permanently and then the it moved onto the location 
+  where it was moved and the second status code is 418. 
+- The status code for curl -i https://www.google.com/teapot which is the location where the previous link mentioned was moved is 418.
+
+QUESTION - 7
+- 
+
+QUESTION - 8
+Raw URL to my python script on Github is "https://raw.githubusercontent.com/Boredalien248/Lab-1/main/lab1.py"
