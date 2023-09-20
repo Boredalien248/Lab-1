@@ -23,7 +23,44 @@ QUESTION - 6
 - The status code for curl -i https://www.google.com/teapot which is the location where the previous link mentioned was moved is 418.
 
 QUESTION - 7
-- 
+- There were quite a few differences between the outputs of the two commands. The differences were as follows Date of execution, MiniFieldStorage, Content Length, 
+  Remote Port, Unique ID. The things mentioned above was different between the output of the two commands. More data on the exact difference has been mentioned at the end of this file. 
+- The use of the -X POST command would be that instead of the default GET it POSTS data. 
 
 QUESTION - 8
 Raw URL to my python script on Github is "https://raw.githubusercontent.com/Boredalien248/Lab-1/main/lab1.py"
+
+
+
+DIFFERENCE FOR QUESTION - 7:
+2c2
+< Date: Thu, 14 Sep 2023 00:08:01 GMT
+---
+> Date: Thu, 14 Sep 2023 00:07:28 GMT
+19d18
+< <P>No form fields.
+20a20,21
+> <DT>X: <i>&lt;type 'instance'&gt;</i>
+> <DD>MiniFieldStorage('X', 'Y')
+25a27,28
+> <DT> CONTENT_LENGTH <DD> 3
+> <DT> CONTENT_TYPE <DD> application/x-www-form-urlencoded
+37c40
+< <DT> REMOTE_PORT <DD> 60302
+---
+> <DT> REMOTE_PORT <DD> 50126
+52c55
+< <DT> UNIQUE_ID <DD> ZQJO4emSG8ixq2CAXUSExwAAAAM
+---
+> <DT> UNIQUE_ID <DD> ZQJOwNgw-zQSEFwGCPEB7wAAAAs
+127a131,132
+> <DT> CONTENT_LENGTH <DD> 3
+> <DT> CONTENT_TYPE <DD> application/x-www-form-urlencoded
+139c144
+< <DT> REMOTE_PORT <DD> 60302
+---
+> <DT> REMOTE_PORT <DD> 50126
+154c159
+< <DT> UNIQUE_ID <DD> ZQJO4emSG8ixq2CAXUSExwAAAAM
+---
+> <DT> UNIQUE_ID <DD> ZQJOwNgw-zQSEFwGCPEB7wAAAAs
